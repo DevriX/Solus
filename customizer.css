@@ -1,0 +1,97 @@
+#accordion-section-social_options ul li {
+ margin-bottom: 10px; 
+}
+
+#accordion-section-social_options .customize-control-title{
+    font-size: 0px;
+}
+
+#customize-control-color-setting .customize-control-title{
+    position: relative !important;
+    font-size: 12px;
+    border-top: 2px solid rgba(0,0,0,.1);
+    margin-top: 10px;
+    padding-top: 7px;
+}
+
+#accordion-section-social_options .customize-control label{
+    position: relative;
+}
+
+#accordion-section-social_options ul li.customize-control span{
+    position: absolute;
+    z-index: 1;
+    left: 3px;
+}
+
+#accordion-section-social_options ul li.customize-control input{
+    text-indent: 20px;
+    background-color: #f6f6f6;
+    border: 2px solid rgba(0,0,0,0);
+}
+
+#accordion-section-social_options ul li.customize-control input[type="text"]:focus, #accordion-section-social_options ul li.customize-control input[type="text"]:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-indent: 27px;
+    background-color: #fff;
+    border: 2px solid #66d344;
+}
+
+
+
+#accordion-section-social_options ul li.customize-control span:before{
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    vertical-align: bottom;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+#customize-control-fb_textbox span:before {
+    font-family: FontAwesome;
+    content: '\f09a\00a0';
+}
+#customize-control-tw_textbox span:before {
+    font-family: FontAwesome;
+    content: '\f099\00a0';
+}
+#customize-control-dribbble_textbox span:before {
+    font-family: FontAwesome;
+    content: '\f17d\00a0';
+}
+#customize-control-plusgoogle_textbox span:before {
+    font-family: FontAwesome;
+    content: '\f0d5\00a0';
+}
+#customize-control-pinterest_textbox span:before {
+    font-family: FontAwesome;
+    content: '\f231\00a0';
+}
+#customize-control-github_textbox span:before {
+    font-family: FontAwesome;
+    content: '\f09b\00a0';
+}
+#customize-control-tumblr_textbox span:before {
+    font-family: FontAwesome;
+    content: '\f173\00a0';
+}
+#customize-control-youtube_textbox span:before {
+    font-family: FontAwesome;
+    content: '\f167\00a0';
+}
+#customize-control-linkedin_textbox span:before {
+    font-family: FontAwesome;
+    content: '\f0e1\00a0';
+}
